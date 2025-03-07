@@ -1,0 +1,16 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install --prefix back-end && npm install --prefix font-end  && npm run build --prefix font-end",
+    "start": "npm run start --prefix back-end "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "backend": "^0.0.0"
+  }
+}
